@@ -52,14 +52,14 @@ The simulations explore how environmental switching rates affect the fixation pr
 
 | | |
 |:---:|:---:|
-| ![Diagram 1](figures/Diagrama0.5.png) | ![Diagram 2](figures/Diagrama1.5.png) |
-| **Environment phase diagram** | **Population dynamics** |
+| ![Diagram negative](figures/Diagrama_negative.png) | ![Diagram positive](figures/Diagrama_positive.png) |
+| **Environment phase diagram (σ₀ = -1)** | **Population dynamics (σ₀ = +1)** |
 
-### Sample Results
+### Simulation Results
 
 #### Fixation Probability vs $p_+$
 
-Shows how the probability of mutant strategy fixation depends on environmental switching rate, for different initial environments ($\sigma_0 = \pm 1$).
+Shows how the probability of mutant strategy fixation depends on environmental switching rate.
 
 ![Fixation probability](figures/pronfijpmas.png)
 
@@ -68,6 +68,13 @@ Shows how the probability of mutant strategy fixation depends on environmental s
 Displays the average time (in generations) for mutant fixation across different switching rates.
 
 ![Fixation time](figures/tiempofijgen.png)
+
+#### Additional Analysis
+
+Sample figures from the full analysis:
+
+![Figure 15](figures/figura15.png)
+![Figure Ruben](figures/figuraruben.png)
 
 ## Repository Structure
 
