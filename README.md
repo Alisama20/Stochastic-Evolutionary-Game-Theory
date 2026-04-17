@@ -50,10 +50,15 @@ Simulates:
 
 The simulations explore how environmental switching rates affect the fixation probability of the mutant strategy. The results below show both the probability and time-to-fixation as functions of the switching rate $p_+$.
 
-| | |
-|:---:|:---:|
-| ![Diagram negative](https://raw.githubusercontent.com/Alisama20/Stochastic-Evolutionary-Game-Theory/master/figures/Diagrama_negative.png) | ![Diagram positive](https://raw.githubusercontent.com/Alisama20/Stochastic-Evolutionary-Game-Theory/master/figures/Diagrama_positive.png) |
-| **Environment phase diagram (σ₀ = -1)** | **Population dynamics (σ₀ = +1)** |
+<p align="center">
+<img src="figures/Diagrama_negative.png" width="45%">
+<img src="figures/Diagrama_positive.png" width="45%">
+</p>
+
+<p align="center">
+<strong>Environment phase diagram (σ₀ = -1)</strong> &nbsp;&nbsp;&nbsp;&nbsp;
+<strong>Population dynamics (σ₀ = +1)</strong>
+</p>
 
 ### Simulation Results
 
@@ -61,21 +66,24 @@ The simulations explore how environmental switching rates affect the fixation pr
 
 Shows how the probability of mutant strategy fixation depends on environmental switching rate.
 
-![Fixation probability](https://raw.githubusercontent.com/Alisama20/Stochastic-Evolutionary-Game-Theory/master/figures/pronfijpmas.png)
+<p align="center">
+<img src="figures/pronfijpmas.png" width="70%">
+</p>
 
 #### Average Fixation Time vs $p_+$
 
 Displays the average time (in generations) for mutant fixation across different switching rates.
 
-![Fixation time](https://raw.githubusercontent.com/Alisama20/Stochastic-Evolutionary-Game-Theory/master/figures/tiempofijgen.png)
+<p align="center">
+<img src="figures/tiempofijgen.png" width="70%">
+</p>
 
 #### Additional Analysis
 
-Sample figures from the full analysis:
-
-![Figure 15](https://raw.githubusercontent.com/Alisama20/Stochastic-Evolutionary-Game-Theory/master/figures/figura15.png)
-
-![Figure Ruben](https://raw.githubusercontent.com/Alisama20/Stochastic-Evolutionary-Game-Theory/master/figures/figuraruben.png)
+<p align="center">
+<img src="figures/figura15.png" width="45%">
+<img src="figures/figuraruben.png" width="45%">
+</p>
 
 ## Repository Structure
 
