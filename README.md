@@ -2,6 +2,28 @@
 
 Simulation of evolutionary dynamics in a finite population with environmental fluctuations. Two strategies compete under stochastic fitness-based selection (Moran process) in a randomly switching environment. Includes fixation probability and fixation time analysis with environmental effects.
 
+## Repository Structure
+
+```
+.
+├── scripts/
+│   ├── fixation_probability.py         # Main evolutionary game simulation
+│   ├── generate_plots.py               # Sweep parameters and plot results
+│   └── utils.py                        # Utility functions (optional)
+├── figures/                            # Output plots and data
+│   ├── fixation_probability.png
+│   ├── fixation_time.png
+│   └── fixation_results.npz
+├── latex/
+│   ├── MemoryES.tex                    # Original Spanish report
+│   ├── MemoryEN.tex                    # English translation (optional)
+│   ├── bibliography.bib
+│   └── figures/                        # External figures for LaTeX
+├── README.md                           # This file
+├── LICENSE
+└── .gitignore
+```
+
 ## Physical Model
 
 The system consists of a finite population of $N$ individuals playing an evolutionary game in a randomly switching environment. The environment switches between two states ($\sigma = +1$ and $\sigma = -1$) with rates $p_+$ and $p_-$.
@@ -76,31 +98,14 @@ Displays the average time (in generations) for mutant fixation across different 
 
 Extended analysis figures showing phase diagrams and convergence behavior across different parameter regimes:
 
+<div align="center">
+  
 ![Figure Analysis 1](figures/figure_analysis1.png)
 
 ![Figure Analysis 2](figures/figure_analysis2.png)
 
-## Repository Structure
+</div>
 
-```
-.
-├── scripts/
-│   ├── fixation_probability.py         # Main evolutionary game simulation
-│   ├── generate_plots.py               # Sweep parameters and plot results
-│   └── utils.py                        # Utility functions (optional)
-├── figures/                            # Output plots and data
-│   ├── fixation_probability.png
-│   ├── fixation_time.png
-│   └── fixation_results.npz
-├── latex/
-│   ├── MemoryES.tex                    # Original Spanish report
-│   ├── MemoryEN.tex                    # English translation (optional)
-│   ├── bibliography.bib
-│   └── figures/                        # External figures for LaTeX
-├── README.md                           # This file
-├── LICENSE
-└── .gitignore
-```
 
 ## Requirements
 
