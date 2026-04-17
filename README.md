@@ -80,9 +80,14 @@ Displays the average time (in generations) for mutant fixation across different 
 
 #### Additional Analysis
 
+Extended analysis figures showing phase diagrams and convergence behavior across different parameter regimes:
+
 <p align="center">
-<img src="figures/figure_analysis1.png" width="45%">
-<img src="figures/figure_analysis2.png" width="45%">
+<img src="figures/figure_analysis1.png" width="70%">
+</p>
+
+<p align="center">
+<img src="figures/figure_analysis2.png" width="70%">
 </p>
 
 ## Repository Structure
