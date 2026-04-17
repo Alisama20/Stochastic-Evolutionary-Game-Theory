@@ -8,4 +8,4 @@ Main modules:
 """
 
 __version__ = "1.0.0"
-__author__ = "A. S. Amari Rabah"
+__author__ = "Alisama20"
