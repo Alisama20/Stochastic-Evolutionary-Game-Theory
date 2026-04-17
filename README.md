@@ -179,3 +179,7 @@ MIT License — see [LICENSE](LICENSE)
 ---
 
 **Note:** The simulation accounts for finite-population effects, stochastic environmental switching, and strategy-dependent fitness. The results can be compared against mean-field predictions and analytical solutions when available.
+
+---
+
+*Last updated: April 2026*
