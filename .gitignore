@@ -59,9 +59,7 @@ venv.bak/
 *~
 .DS_Store
 
-# Data files and outputs
-figures/*.png
-figures/*.jpg
+# Data files and outputs (ignore generated data, but keep figures for documentation)
 figures/*.npz
 *.txt
 output/
