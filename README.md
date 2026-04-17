@@ -15,10 +15,12 @@ Simulation of evolutionary dynamics in a finite population with environmental fl
 │   ├── fixation_time.png
 │   └── fixation_results.npz
 ├── latex/
-│   ├── MemoryES.tex                    # Original Spanish report
-│   ├── MemoryEN.tex                    # English translation (optional)
+│   ├── sorsamp.tex                     # Original Spanish LaTeX source
+│   ├── sorsamp_en.tex                  # English translation LaTeX source
 │   ├── bibliography.bib
 │   └── figures/                        # External figures for LaTeX
+├── MemoriaES.pdf                       # Complete report in Spanish
+├── MemoryEN.pdf                        # Complete report in English
 ├── README.md                           # This file
 ├── LICENSE
 └── .gitignore
@@ -161,6 +163,14 @@ Modify these at the top of each script before running.
 - **Speedup:** ~100-200×
 
 All simulations use parallel numba with OpenMP (auto-detected cores).
+
+## Documentation
+
+**Complete Academic Reports:**
+- [MemoriaES.pdf](MemoriaES.pdf) — Full analysis in Spanish (original coursework)
+- [MemoryEN.pdf](MemoryEN.pdf) — English translation of complete report
+
+Both documents include detailed mathematical derivations, theoretical analysis, and all figures used in this simulation.
 
 ## References
 
