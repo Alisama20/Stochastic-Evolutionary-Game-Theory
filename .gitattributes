@@ -1,6 +1,6 @@
-# LaTeX sources
-*.tex text eol=lf
-*.bib text eol=lf
+# LaTeX sources (excluded from language stats)
+*.tex text eol=lf linguist-vendored
+*.bib text eol=lf linguist-vendored
 
 # Binary files
 *.pdf binary
