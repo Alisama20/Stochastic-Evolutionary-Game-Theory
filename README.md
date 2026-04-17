@@ -168,9 +168,9 @@ See [latex/](latex/) for the full academic report (Spanish original) with LaTeX 
 
 ## Author
 
-Alisama20
+A.S. Amari Rabah
 
-Developed as part of the coursework for **Física de Sistemas Complejos** — Degree in Physics, University of Granada.
+Developed as part of the coursework for **Complex Physics Systems** — Degree in Physics, University of Granada.
 
 ## License
 
