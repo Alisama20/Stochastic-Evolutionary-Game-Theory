@@ -1,6 +1,6 @@
 # Stochastic Evolutionary Game Theory — Environmental Switching
 
-Ground-state energy of N interacting bosons in a harmonic trap, computed via the Diffusion Monte Carlo (DMC) method. Two implementations are provided and compared against the analytical solution.
+Simulation of evolutionary dynamics in a finite population with environmental fluctuations. Two strategies compete under stochastic fitness-based selection (Moran process) in a randomly switching environment. Includes fixation probability and fixation time analysis with environmental effects.
 
 ## Physical Model
 
@@ -46,13 +46,28 @@ Simulates:
 
 ## Results
 
-### Fixation Probability vs $p_+$
+### Probability of Fixation Under Environmental Switching
+
+The simulations explore how environmental switching rates affect the fixation probability of the mutant strategy. The results below show both the probability and time-to-fixation as functions of the switching rate $p_+$.
+
+| | |
+|:---:|:---:|
+| ![Diagram 1](figures/Diagrama0.5.png) | ![Diagram 2](figures/Diagrama1.5.png) |
+| **Environment phase diagram** | **Population dynamics** |
+
+### Sample Results
+
+#### Fixation Probability vs $p_+$
 
 Shows how the probability of mutant strategy fixation depends on environmental switching rate, for different initial environments ($\sigma_0 = \pm 1$).
 
-### Average Fixation Time vs $p_+$
+![Fixation probability](figures/pronfijpmas.png)
+
+#### Average Fixation Time vs $p_+$
 
 Displays the average time (in generations) for mutant fixation across different switching rates.
+
+![Fixation time](figures/tiempofijgen.png)
 
 ## Repository Structure
 
@@ -133,13 +148,13 @@ All simulations use parallel numba with OpenMP (auto-detected cores).
 
 ## References
 
-See [Proyecto/REDACCION/](../Proyecto/REDACCION/) for the full academic report (Spanish original) and English translation.
+See [latex/](latex/) for the full academic report (Spanish original) with LaTeX sources and bibliography.
 
 ## Author
 
-A. S. Amari Rabah
+Alisama20
 
-Developed as part of the coursework for **Stochastic Processes and Evolutionary Dynamics** — Master's Degree in Physics, University of Granada.
+Developed as part of the coursework for **Física de Sistemas Complejos** — Degree in Physics, University of Granada.
 
 ## License
 
