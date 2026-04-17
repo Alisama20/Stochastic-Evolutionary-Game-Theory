@@ -52,7 +52,7 @@ The simulations explore how environmental switching rates affect the fixation pr
 
 | | |
 |:---:|:---:|
-| ![Diagram negative](figures/Diagrama_negative.png) | ![Diagram positive](figures/Diagrama_positive.png) |
+| ![Diagram negative](https://raw.githubusercontent.com/Alisama20/Stochastic-Evolutionary-Game-Theory/master/figures/Diagrama_negative.png) | ![Diagram positive](https://raw.githubusercontent.com/Alisama20/Stochastic-Evolutionary-Game-Theory/master/figures/Diagrama_positive.png) |
 | **Environment phase diagram (σ₀ = -1)** | **Population dynamics (σ₀ = +1)** |
 
 ### Simulation Results
@@ -61,20 +61,21 @@ The simulations explore how environmental switching rates affect the fixation pr
 
 Shows how the probability of mutant strategy fixation depends on environmental switching rate.
 
-![Fixation probability](figures/pronfijpmas.png)
+![Fixation probability](https://raw.githubusercontent.com/Alisama20/Stochastic-Evolutionary-Game-Theory/master/figures/pronfijpmas.png)
 
 #### Average Fixation Time vs $p_+$
 
 Displays the average time (in generations) for mutant fixation across different switching rates.
 
-![Fixation time](figures/tiempofijgen.png)
+![Fixation time](https://raw.githubusercontent.com/Alisama20/Stochastic-Evolutionary-Game-Theory/master/figures/tiempofijgen.png)
 
 #### Additional Analysis
 
 Sample figures from the full analysis:
 
-![Figure 15](figures/figura15.png)
-![Figure Ruben](figures/figuraruben.png)
+![Figure 15](https://raw.githubusercontent.com/Alisama20/Stochastic-Evolutionary-Game-Theory/master/figures/figura15.png)
+
+![Figure Ruben](https://raw.githubusercontent.com/Alisama20/Stochastic-Evolutionary-Game-Theory/master/figures/figuraruben.png)
 
 ## Repository Structure
 
