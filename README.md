@@ -176,20 +176,19 @@ Both documents include detailed mathematical derivations, theoretical analysis, 
 
 See [latex/](latex/) for the full academic report (Spanish original) with LaTeX sources and bibliography.
 
+---
+
 ## Author
 
-A.S. Amari Rabah
+**A. S. Amari Rabah**
 
-Developed as part of the coursework for **Complex Physics Systems** — Degree in Physics, University of Granada.
+Developed as part of the coursework for *Physics of Complex Systems* —
+Bachelor's Degree in Physics, University of Granada, Spain.
 
-## License
 
-MIT License — see [LICENSE](LICENSE)
 
 ---
 
 **Note:** The simulation accounts for finite-population effects, stochastic environmental switching, and strategy-dependent fitness. The results can be compared against mean-field predictions and analytical solutions when available.
 
----
 
-*Last updated: April 2026*
