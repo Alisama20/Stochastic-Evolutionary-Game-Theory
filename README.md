@@ -36,10 +36,10 @@ The full academic report is available in two languages:
 
 | File | Description |
 |------|-------------|
-| [MemoryEN.pdf](MemoryEN.pdf) | English version — stochastic Moran process, environmental switching, fixation probability and time analysis |
+| [MemoryEN.pdf](MemoryEN.pdf) | English version — Moran process, fixation probability derivation, simulation results |
 | [MemoriaES.pdf](MemoriaES.pdf) | Spanish version (original) |
 
-The LaTeX sources are in the [`latex/`](latex/) folder together with the bibliography.
+The LaTeX sources are in the [](latex/) folder together with the bibliography.
 
 ---
 
@@ -184,18 +184,12 @@ All simulations use parallel numba with OpenMP (auto-detected cores).
 ## References
 
 See [`latex/`](latex/) for the full academic report (Spanish original) with LaTeX sources and bibliography.
-
 ---
-
 ## Author
 
 **A. S. Amari Rabah**
 
 Developed as part of the coursework for *Physics of Complex Systems* —
 Bachelor's Degree in Physics, University of Granada, Spain.
-
-
-
 ---
-
 **Note:** The simulation accounts for finite-population effects, stochastic environmental switching, and strategy-dependent fitness. The results can be compared against mean-field predictions and analytical solutions when available.
