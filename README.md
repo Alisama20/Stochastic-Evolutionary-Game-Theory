@@ -2,29 +2,46 @@
 
 Simulation of evolutionary dynamics in a finite population with environmental fluctuations. Two strategies compete under stochastic fitness-based selection (Moran process) in a randomly switching environment. Includes fixation probability and fixation time analysis with environmental effects.
 
-## Repository Structure
+---
+
+## Repository layout
 
 ```
 .
 ├── scripts/
-│   ├── fixation_probability.py         # Main evolutionary game simulation
-│   ├── generate_plots.py               # Sweep parameters and plot results
-│   └── utils.py                        # Utility functions (optional)
-├── figures/                            # Output plots and data
+│   ├── fixation_probability.py         # Moran process simulation (Numba-accelerated)
+│   ├── generate_plots.py               # Sweep parameters and reproduce result figures
+│   └── utils.py                        # Shared utility functions
+├── figures/                            # PNG outputs
 │   ├── fixation_probability.png
 │   ├── fixation_time.png
-│   └── fixation_results.npz
+│   ├── diagram_negative.png
+│   ├── diagram_positive.png
+│   ├── figure_analysis1.png
+│   └── figure_analysis2.png
 ├── latex/
-│   ├── sorsamp.tex                     # Original Spanish LaTeX source
-│   ├── sorsamp_en.tex                  # English translation LaTeX source
-│   ├── bibliography.bib
-│   └── figures/                        # External figures for LaTeX
-├── MemoriaES.pdf                       # Complete report in Spanish
-├── MemoryEN.pdf                        # Complete report in English
-├── README.md                           # This file
-├── LICENSE
-└── .gitignore
+│   ├── sorsamp.tex                     # Spanish LaTeX source
+│   ├── aipsamp.bib                     # Bibliography
+│   └── *.png / *.eps                   # LaTeX figures
+├── MemoryEN.pdf
+├── MemoriaES.pdf
+└── README.md
 ```
+
+---
+
+## Report
+
+The full academic report is available in two languages:
+
+| File | Description |
+|------|-------------|
+| [MemoryEN.pdf](MemoryEN.pdf) | English version — stochastic Moran process, environmental switching, fixation probability and time analysis |
+| [MemoriaES.pdf](MemoriaES.pdf) | Spanish version (original) |
+
+The LaTeX sources are in the [`latex/`](latex/) folder together with the bibliography.
+
+---
 
 ## Physical Model
 
@@ -164,17 +181,9 @@ Modify these at the top of each script before running.
 
 All simulations use parallel numba with OpenMP (auto-detected cores).
 
-## Documentation
-
-**Complete Academic Reports:**
-- [MemoriaES.pdf](MemoriaES.pdf) — Full analysis in Spanish (original coursework)
-- [MemoryEN.pdf](MemoryEN.pdf) — English translation of complete report
-
-Both documents include detailed mathematical derivations, theoretical analysis, and all figures used in this simulation.
-
 ## References
 
-See [latex/](latex/) for the full academic report (Spanish original) with LaTeX sources and bibliography.
+See [`latex/`](latex/) for the full academic report (Spanish original) with LaTeX sources and bibliography.
 
 ---
 
@@ -190,5 +199,3 @@ Bachelor's Degree in Physics, University of Granada, Spain.
 ---
 
 **Note:** The simulation accounts for finite-population effects, stochastic environmental switching, and strategy-dependent fitness. The results can be compared against mean-field predictions and analytical solutions when available.
-
-
