@@ -187,7 +187,7 @@ See [`latex/`](latex/) for the full academic report (Spanish original) with LaTe
 ---
 ## Author
 
-**A. S. Amari Rabah**
+**A. S. Amari Rabah** and A. Rodriguéz Garrido
 
 Developed as part of the coursework for *Physics of Complex Systems* —
 Bachelor's Degree in Physics, University of Granada, Spain.
